@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+body{
+    background-color: #DBDFEA;
+}
+
+.pg {
+  min-width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 10px;
+}
+
+.pg-0 {
+    background-color: #8294C4;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.pg-1 input{
+}
+
+.input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8294C4;
+    margin-bottom: 19px;
+    border-radius: 30px;
+ }
+
+.pg-1 input {
+    padding: 25px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.pg-1 ::placeholder {
+    color: black;
+    font-size: 12px;
+}
+
+.pg-1 button {
+    background-color:#DBDFEA ;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+#yourP {
+    background-color:#8294C4 ;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display:none;
+    margin-bottom: 20px;
+    /* width: 350px; */
+}
+
+.input-div-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#weight {
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.input-div-2 ::placeholder {
+    color: black;
+    font-size: 12px;
+}
+
+#height {
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+.classic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classic button {
+    padding: 10px;
+    flex-grow: 1;
+    background-color: #DBDFEA;
+    outline: none;
+    border: none;
+    margin: 0 5px 5px ;
+    border-radius: 5px;
+    color:black ;
+}
+
+
+#diagrop {
+    background-color: #DBDFEA;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: 600;
+    display: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #DBDFEA;
+    color:black;
+}
