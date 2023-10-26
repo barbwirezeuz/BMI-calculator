@@ -50,9 +50,23 @@ kgBtn.addEventListener('click', function(){
     const kgConvert = (kilogram * 2.205).toFixed(2);
 
     const poundsText = document.getElementById('yourP')
-    poundsText.innerHTML = `Your Kilogram (KG), Converted to Pounds (LBS) is ${kgConvert}` 
+    poundsText.innerHTML = `Your Kilogram (KG), Converted to Pounds (LBS) is : ${kgConvert}` 
 
     poundsText.style.display = 'block';
+})
+
+const feet =document.getElementById('ft')
+const ftBtn = document.getElementById('ft-btn')
+
+ftBtn.addEventListener('click', function(){
+  feetDig = feet.value
+  const feetConvert = (feetDig * 12).toFixed(1);
+
+  const feetText = document.getElementById('yourft')
+  feetText.innerHTML = `Your Height in Feet (ft), Converted To Inches Is : ${feetConvert}`
+
+
+  feetText.style.display ='block'
 })
 
 

@@ -10,47 +10,47 @@ body{
     background-color: #DBDFEA;
 }
 
-.pg {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 10px 10px;
-}
-
 .pg-0 {
     background-color: #8294C4;
-  padding: 20px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+  margin: 20px;
 }
 
 
 
-.pg-1 input{
+.input-div {
+    flex-grow: 1;
+}
+
+.feat {
+    flex-grow: 1;
 }
 
 .pg-1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #8294C4;
-    margin-bottom: 19px;
+    background-color: #DBDFEA;
     border-radius: 30px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+   
  }
 
 .pg-1 input {
-    padding: 25px;
-    background-color: transparent;
+    background-color: #DBDFEA;
     outline: none;
     border: none;
+    padding: 10px;
     border-radius: 30px;
     color: black;
-    font-size: larger;
+    font-size: medium;
     font-weight: 600;
+    margin: 10px;
 
 }
 
@@ -60,25 +60,34 @@ body{
 }
 
 .pg-1 button {
-    background-color:#DBDFEA ;
+    background-color:#8294C4 ;
     outline: none;
     border: none;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 5px;
+    border-radius: 5px;
     color: black;
-    font-size: large;
-    font-weight: 600;
-    margin-right: 10px;
+    font-size: small;
+    font-weight: 100;
 }
 
 #yourP {
     background-color:#8294C4 ;
     border-radius: 5px;
+    margin: 10px;
     padding: 10px;
     text-align: center;
     display:none;
     margin-bottom: 20px;
-    /* width: 350px; */
+    
+}
+
+#yourft {
+    background-color:#8294C4 ;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display:none;   
 }
 
 .input-div-2{
