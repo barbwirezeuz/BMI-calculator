@@ -158,3 +158,20 @@ h1 {
     background-color: #DBDFEA;
     color:black;
 }
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #8294C4;
+    border-radius: 15px 15px 0 0;
+    color:black ;
+    padding: 25px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 90%;
+}
