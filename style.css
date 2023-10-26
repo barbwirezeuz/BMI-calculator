@@ -11,7 +11,6 @@ body{
 }
 
 .pg {
-  min-width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +33,7 @@ body{
 .pg-1 input{
 }
 
-.input-div {
+.pg-1 {
     display: flex;
     justify-content: center;
     align-items: center;
